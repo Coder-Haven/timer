@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ru
+  position: absolute;
+  width: 600px;by, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*============================================*/
+#clock-container{
+  width: 900px;
+  height: 200px;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: auto;
+  border: 3px solid teal;
+  border-radius: 8px;
+  background-color: #1b1c1c;
+  color: #fff;
+  box-shadow: 2px 2px 50px #ff0000;
+}
+
+#label-container div{
+  position: relative;
+  display: inline-block;
+  
+  
+}
+
+#label-seconds{
+  position: absolute;
+  left: 610px;
+}
+#label-min{
+  position: absolute;
+  left: 240px;
+}
+
+#main-shelf{
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  width: 900px;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: #222;
+  box-shadow: 1px 1px 10px teal;
+}
+
+#min{
+  position: absolute;
+  display: inline-block;
+  border: 1px solid pink;
+  width: 300px;
+  height: 150px;
+  margin-top: 10px;
+  left: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 4em;
+  font-family: impact, arial, serif;
+  color: #fff;
+  background-color: #000;
+  border-radius: 30px;
+  text-shadow: 1px 1px 20px #ff1;
+}
+
+
+
+
+#seconds{
+  position: absolute;
+  display: inline-block;
+  border: 1px solid #fff;
+  width: 300px;
+  height: 150px;
+  margin-top: 10px;
+  left: 500px;
+  margin-right: auto;
+  text-align: center;
+  line-height: 100px;
+  font-size: 4em;
+  font-family: impact, arial, serif;
+  color: #fff;
+  background-color: #000;
+  border-radius: 30px;
+  text-shadow: 1px 1px 20px #ff1;
+}
+
+button{
+  width: 100px;
+  height: 25px;
+  border: none;
+  margin-left: 45px;
+  margin-top: 5px;
+  
+}
+
+#button-shelf{
+  position: absolute;
+  margin-left: 370px;
+  margin-right: 0;
+}
+#set{
+  background-image: none;
+  background-color: 00ff10;
+}
+
+#tu-div{
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 700px;
+  height: 230px;
+  background-color: #ff0000;
+  opacity: 0.3;
+  font-family: impact, sans-serit, arial;
+  font-size: 90px;
+  text-align: center;
+  line-height: 200px;
+  color: #f1ff00;
+  
+}
+#tu{
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 400px;
+  font-family: impact, sans-serit, arial;
+  font-size: 90px;
+  text-align: center;
+  line-height: 200px;
+  color: #ffff00;
+}
+
+#x{
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 2px solid black;
+  line-height: 25px;
+  float: right;
+  background-color: #000;
+  cursor: pointer;
+}
+
+#set-time-screen{
+  display: none;
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  background-color: #00f2ff;
+  border-radius: 30px;
+  top: 80px;
+  left: 300px;
+}
+
+#set-content{
+  
+  position: relative;
+  margin-left: 25%;
+  margin-top: 50px;
+  font-family: arial, sans-serif;
+  color: #ff1;
+  text-shadow: 1px 1px 1px #000;
+  
+}
+#inp-sec, #inp-min, #lbl-sec{
+  margin-top: 20px;
+  
+} 
+#inp-sec, #inp-min{
+  margin-left: 20px;
+  height: 30px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  
+}
+#inp-min{
+  margin-left: 27px;
+}
+
+#btn-set{
+  
+  background-color: #00ff00;
+  box-shadow: 1px 1px 8px #000;
+  border-radius: 5px;
+}

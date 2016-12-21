@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coder Haven Timer</title>
+        <link rel="stylesheet" type="text/css" href="css/timer.css" />
+    </head>
+
+    <div id="clock-container">
+
+      <div id="label-container">
+        <div id="label-min">Min</div>
+        <div id="label-seconds">Sec</div>
+      </div>
+
+
+        <div id="min">0</div>
+
+        <div id="seconds">0</div>
+      </div> 
+
+      <div id="button-shelf">
+        <button id="set">Set</button>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+      </div>
+
+
+      <div id="set-time-screen">
+        <div id="set-content">
+          <label for='min'>Minutes</label>
+          <input name='min' type='text' id='inp-min'/>
+        <br />
+          <label for='sec' id="lbl-sec">Seconds</label>
+          <input name='sec' type='text' id='inp-sec'/>
+          <button id="btn-set">Done</button>
+        </div> 
+      </div>
+
+    <div id="tu-div" class="time-up">
+      <div id="x">X</div>
+    </div>
+    <span id="tu"class="time-up">Outta Time!!!</span>
+
+    </div>
+    <script src="js/timer.js"></script>
+</html>
